@@ -21,18 +21,22 @@ A custom blog platform built with Java Spring Boot, MongoDB, and Thymeleaf templ
 
 ## Screenshots
 ### 1
-![1](screenshots/1.png)
+![image](https://github.com/user-attachments/assets/49790d72-9201-4a30-8b32-ae2d64cc4f8b)
 ### 2
-![2](screenshots/2.png)
+![image](https://github.com/user-attachments/assets/abf2a28b-7018-457e-9a85-0041f342c7ea)
 ### 3
-![3](screenshots/3.png)
+![1](screenshots/1.png)
 ### 4
-![4](screenshots/4.png)
+![2](screenshots/2.png)
 ### 5
-![5](screenshots/5.png)
+![3](screenshots/3.png)
 ### 6
-![6](screenshots/6.png)
+![4](screenshots/4.png)
 ### 7
+![5](screenshots/5.png)
+### 8
+![6](screenshots/6.png)
+### 9
 ![7](screenshots/7.png)
 
 ## Technologies
