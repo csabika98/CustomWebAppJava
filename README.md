@@ -1,3 +1,7 @@
+## This App is on a private repo as actively being used for https://sallai.tech
+### Real commits on the private repo
+![image](https://github.com/user-attachments/assets/a50c62f3-8ec4-4cce-bfb4-abda525cdaed)
+
 # CustomWebAppJava
 # Blog Application
 
