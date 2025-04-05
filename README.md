@@ -20,6 +20,9 @@
 A custom blog platform built with Java Spring Boot, MongoDB, and Thymeleaf template engine.
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/e60d5c9a-6578-4286-97db-987c4fcdda41)
+![image](https://github.com/user-attachments/assets/0ad7579e-56be-437b-bafd-c88fe86700ec)
+
 ### 1
 ![image](https://github.com/user-attachments/assets/49790d72-9201-4a30-8b32-ae2d64cc4f8b)
 ### 2
