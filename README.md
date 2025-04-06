@@ -1,26 +1,38 @@
-## This App is on a private repo as actively being used for https://sallai.tech
-### Real commits on the private repo
-![image](https://github.com/user-attachments/assets/e0d8a643-e677-41e9-aecf-385d3606bb00)
-![image](https://github.com/user-attachments/assets/a50c62f3-8ec4-4cce-bfb4-abda525cdaed)
+# Blog Application with Admin Panel & Markdown Support  
+**Powering [sallai.tech](https://sallai.tech)**  
 
-# CustomWebAppJava
-# Blog Application
+![Admin Dashboard Preview](https://github.com/user-attachments/assets/7d2fa5b7-54bb-4fb7-b34a-2799611b66bb)  
+*Active development shown by real commits:*  
+![Commit History](https://github.com/user-attachments/assets/e0d8a643-e677-41e9-aecf-385d3606bb00)  
+![Recent Updates](https://github.com/user-attachments/assets/a50c62f3-8ec4-4cce-bfb4-abda525cdaed)  
 
-## Table of Contents
+## ✨ Key Features  
 
-1. [Screenshots](#screenshots)
-2. [Technologies](#technologies)  
-3. [Features](#features)  
-4. [Installation & Setup](#installation--setup)  
-5. [API Endpoints](#api-endpoints)  
-6. [Code Structure](#code-structure)  
-7. [Security Features](#security-features)  
-8. [Frontend Details](#frontend-details)  
+### 🖥️ Admin Panel  
+- Full CRUD operations for blog management  
+- Role-based access control (Admin/User roles)  
+- Dashboard with activity metrics  
 
+### 📝 Content Management  
+- **Markdown support** - Write posts in `.md` files and upload directly  
+- Drag-and-drop media uploads  
+- Scheduled publishing  
 
-A custom blog platform built with Java Spring Boot, MongoDB, and Thymeleaf template engine.
+### 👥 User System  
+- Secure registration & authentication  
+- Profile management  
+- Commenting system  
 
-## Screenshots
+### 🚀 Technical Highlights  
+- Java Spring Boot backend  
+- MongoDB database  
+- Thymeleaf + Bootstrap frontend  
+- Responsive mobile-ready UI  
+
+---
+
+## 📸 Application Screenshots  
+
 ![image](https://github.com/user-attachments/assets/7d2fa5b7-54bb-4fb7-b34a-2799611b66bb)
 ![image](https://github.com/user-attachments/assets/e60d5c9a-6578-4286-97db-987c4fcdda41)
 ![image](https://github.com/user-attachments/assets/0ad7579e-56be-437b-bafd-c88fe86700ec)
@@ -43,88 +55,113 @@ A custom blog platform built with Java Spring Boot, MongoDB, and Thymeleaf templ
 ![6](screenshots/6.png)
 ### 9
 ![7](screenshots/7.png)
+---
 
-## Technologies
+## 🛠️ Technical Stack  
 
-- **Spring Boot**
-- **Spring Framework**
-- **Java**
-- **MongoDB**
-- **Thymeleaf**
-- **Bootstrap**
+**Backend**  
+- Java 17  
+- Spring Boot 3.x  
+- Spring Security  
+- Spring Data MongoDB  
 
-## Features
+**Frontend**  
+- Thymeleaf templates  
+- Bootstrap 5  
+- Vanilla JS + jQuery  
 
-- 📝 Article management system with CRUD operations
-- 🔐 Admin-protected endpoints for content management
-- 📄 Paginated article listing
-- 📧 Contact form page
-- 🛡️ CSRF protection for forms
-- 📱 Responsive Bootstrap-based UI
+**Database**  
+- MongoDB Atlas  
 
-## Installation & Setup
+**Infrastructure**  
+- Docker containerization  
+- CI/CD pipeline  
 
-This is used as my personal website, https://sallai.tech, source-code not yet public
+---
 
-## API Endpoints
+## 🔐 Security Features  
 
-
-### Protected Admin Endpoints (Require ADMIN role)
-
-| Method  | Endpoint          | Description                |
-|---------|-------------------|----------------------------|
-| POST    | /api/posts        | Create new blog post       |
-| PUT     | /api/posts/{id}   | Update existing post       |
-| DELETE  | /api/posts/{id}   | Delete post                |
-| GET     | /createPosts      | Admin post creation form   |
-
-### Public Endpoints
-
-| Method  | Endpoint          | Description                |
-|---------|-------------------|----------------------------|
-| GET     | /                 | Home page with recent posts|
-| GET     | /articles         | Paginated article list     |
-| GET     | /articles/{id}    | Single article view        |
-| GET     | /contactme        | Contact form page          |
-
-## Code Structure
-
-```
-src/main/java/com/csabika98/blog/
-├── BlogApplication.java # Main application entry point
-├── config/ # Configuration classes
-├── controllers/ # MVC Controllers
-│ ├── ApiController.java # REST API endpoints
-│ ├── ContactController.java # Contact form handling
-│ ├── HomeController.java # Main page controllers
-│ └── ...
-├── models/ # Data models
-├── repositories/ # MongoDB repositories
-└── services/ # Business logic services
-```
-
-
-## Security Features
-
-- Role-based access control for admin operations  
-- CSRF protection for all forms  
+- Role-based authorization  
+- CSRF protection  
+- Password encryption (BCrypt)  
 - Secure session management  
-- Input validation for blog posts and contact forms  
+- Input sanitization for XSS prevention  
 
-## Frontend Details
+---
 
-- Thymeleaf templates with Bootstrap 5  
-- Responsive design  
-- Dynamic content rendering  
-- Form validation  
-- Pagination support  
+## 📂 Project Structure  
+```
+com.csabika98.blog/
 
-### Templates:
+├── config/
+├── controllers/
+│ ├── AdminController.java
+│ ├── ApiController.java
+│ └── ...
+├── models/ 
+├── repositories/ 
+├── services/
+├── util/ 
+└── resources/
+├── templates/ 
+├── static/
+└── application.properties
+```
 
-- `index.html`: Home page  
-- `blog.html`: Article listing  
-- `article.html`: Single post view  
-- `contact.html`: Contact form  
-- `createposts.html`: Admin post creation form  
+
+---
+
+## 🔌 API Endpoints  
+
+### Public Routes  
+| Method | Path          | Description          |
+|--------|---------------|----------------------|
+| GET    | /             | Homepage with posts  |
+| GET    | /posts/{slug} | Single post view     |
+| POST   | /contact      | Submit contact form  |
+
+### Admin Routes  
+| Method | Path            | Description            |
+|--------|-----------------|------------------------|
+| POST   | /admin/posts    | Create new post        |
+| PUT    | /admin/posts/{id} | Update post           |
+| GET    | /admin/dashboard | Management console    |
+
+### Authentication  
+| Method | Path       | Description          |
+|--------|------------|----------------------|
+| POST   | /register  | User registration    |
+| POST   | /login     | User login           |
+| POST   | /logout    | Session termination  |
+
+---
+
+## 🚀 Getting Started  
+
+*Note: Source currently private while in active production use*  
+
+1. **Prerequisites**:  
+   - Java 17 JDK  
+   - MongoDB 6.0+  
+   - Maven 3.8+  
+
+2. **Configuration**:  
+Create application.properties with:  
+``` 
+spring.data.mongodb.uri=mongodb://localhost:27017/blogdb
+spring.security.user.name=admin
+spring.security.user.password=securepassword
+```
 
 
+3. **Running**:  
+```bash
+mvn spring-boot:run
+```
+
+📬 Contact
+For access requests or questions:
+
+Email: sallcsa.csaba8@gmail.com
+
+Website: sallai.tech
