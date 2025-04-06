@@ -136,29 +136,6 @@ com.csabika98.blog/
 
 ---
 
-## 🚀 Getting Started  
-
-*Note: Source currently private while in active production use*  
-
-1. **Prerequisites**:  
-   - Java 17 JDK  
-   - MongoDB 6.0+  
-   - Maven 3.8+  
-
-2. **Configuration**:  
-Create application.properties with:  
-``` 
-spring.data.mongodb.uri=mongodb://localhost:27017/blogdb
-spring.security.user.name=admin
-spring.security.user.password=securepassword
-```
-
-
-3. **Running**:  
-```bash
-mvn spring-boot:run
-```
-
 📬 Contact
 For access requests or questions:
 
