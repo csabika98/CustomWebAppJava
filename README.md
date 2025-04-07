@@ -1,13 +1,7 @@
 # Blog Application with Admin Panel & Markdown Support  
 **Powering [sallai.tech](https://sallai.tech)**  
 
-![Admin Dashboard Preview](https://github.com/user-attachments/assets/7d2fa5b7-54bb-4fb7-b34a-2799611b66bb)
-![image](https://github.com/user-attachments/assets/bedc5ca4-0122-4b10-8d7f-58256cf90e09)
-![image](https://github.com/user-attachments/assets/8d000329-4304-423d-bae6-f4cbf561d528)
-![image](https://github.com/user-attachments/assets/b3147073-5dbe-4648-b4ad-8b1d2e2abec2)
-![image](https://github.com/user-attachments/assets/56d1d070-a489-4698-bf31-4dcfbf71a333)
-![image](https://github.com/user-attachments/assets/11419596-8d0d-49ef-82e6-c7fc3d1cfd76)
-![image](https://github.com/user-attachments/assets/c29016f4-5bbd-4de2-8f00-4e8924556b9f)
+
 
 
 
@@ -42,28 +36,23 @@
 
 ## 📸 Application Screenshots  
 
-![image](https://github.com/user-attachments/assets/7d2fa5b7-54bb-4fb7-b34a-2799611b66bb)
-![image](https://github.com/user-attachments/assets/e60d5c9a-6578-4286-97db-987c4fcdda41)
-![image](https://github.com/user-attachments/assets/0ad7579e-56be-437b-bafd-c88fe86700ec)
 
+![OldVersionPart1](https://github.com/user-attachments/assets/e60d5c9a-6578-4286-97db-987c4fcdda41)
+![DropDownMenu](https://github.com/user-attachments/assets/0ad7579e-56be-437b-bafd-c88fe86700ec)
 ### 1
-![image](https://github.com/user-attachments/assets/49790d72-9201-4a30-8b32-ae2d64cc4f8b)
-### 2
-![image](https://github.com/user-attachments/assets/abf2a28b-7018-457e-9a85-0041f342c7ea)
-### 3
-![1](screenshots/1.png)
-### 4
-![2](screenshots/2.png)
-### 5
-![3](screenshots/3.png)
-### 6
-![4](screenshots/4.png)
-### 7
-![5](screenshots/5.png)
+![MyProjects](https://github.com/user-attachments/assets/49790d72-9201-4a30-8b32-ae2d64cc4f8b)
+![Admin Dashboard Preview](https://github.com/user-attachments/assets/7d2fa5b7-54bb-4fb7-b34a-2799611b66bb)
+
+![HomePage](https://github.com/user-attachments/assets/bedc5ca4-0122-4b10-8d7f-58256cf90e09)
+![LatestPost](https://github.com/user-attachments/assets/8d000329-4304-423d-bae6-f4cbf561d528)
+![PostEditDelete](https://github.com/user-attachments/assets/b3147073-5dbe-4648-b4ad-8b1d2e2abec2)
+![PostEdit1](https://github.com/user-attachments/assets/56d1d070-a489-4698-bf31-4dcfbf71a333)
+![PostEdit2](https://github.com/user-attachments/assets/11419596-8d0d-49ef-82e6-c7fc3d1cfd76)
+![PostDelete](https://github.com/user-attachments/assets/c29016f4-5bbd-4de2-8f00-4e8924556b9f)
+![CreateNewPosts](screenshots/5.png)
 ### 8
-![6](screenshots/6.png)
-### 9
-![7](screenshots/7.png)
+![CreateNewPosts2](screenshots/6.png)
+
 ---
 
 ## 🛠️ Technical Stack  
