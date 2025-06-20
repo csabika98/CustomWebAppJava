@@ -4,10 +4,14 @@
 
 ---
 * Real commits on a private repo, as this actively used for https://sallai.tech
+* 🚧 _This project is in active development — real progress with real commits:_  
+![image](https://github.com/user-attachments/assets/e0c1dc34-0f62-4a04-8021-9d254a51b434)
+![image](https://github.com/user-attachments/assets/9f571115-016e-4262-bbbd-4c1aa7cf90e9)
+![image](https://github.com/user-attachments/assets/a27474f7-d525-4b8d-855c-aa4b867457de)
 
-🚧 _This project is in active development — real progress with real commits:_  
-![Commit History](https://github.com/user-attachments/assets/e0d8a643-e677-41e9-aecf-385d3606bb00)  
-![Recent Updates](https://github.com/user-attachments/assets/a50c62f3-8ec4-4cce-bfb4-abda525cdaed)
+
+Commit history:
+https://sallai.tech/release-notes
 
 ---
 
