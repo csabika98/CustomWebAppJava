@@ -41,6 +41,14 @@ https://sallai.tech/release-notes
 
 ## 📸 Screenshots with Explanations  
 
+### New Version:
+
+![image](https://github.com/user-attachments/assets/d102a0fe-7aa6-4510-9462-b5a138e55ed9)
+![image](https://github.com/user-attachments/assets/2051098f-4021-40f5-928f-b163292851bd)
+![image](https://github.com/user-attachments/assets/8b9b9a99-3186-4cbe-b50e-4bc43c252e6d)
+
+
+
 ### 🧪 Old Version Preview  
 ![Old Version Part 1](https://github.com/user-attachments/assets/e60d5c9a-6578-4286-97db-987c4fcdda41)
 
