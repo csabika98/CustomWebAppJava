@@ -7,7 +7,6 @@
 * 🚧 _This project is in active development — real progress with real commits:_  
 
 ![image](https://github.com/user-attachments/assets/9f571115-016e-4262-bbbd-4c1aa7cf90e9)
-![image](https://github.com/user-attachments/assets/a27474f7-d525-4b8d-855c-aa4b867457de)
 
 
 Commit history:
